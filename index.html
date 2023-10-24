@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Site de Bolos</title>
+</head>
+<body>
+    <header>
+        <h1>Deliciosos Bolos</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">Bolos de Chocolate</a></li>
+            <li><a href="#">Bolos de Morango</a></li>
+            <li><a href="#">Bolos de Baunilha</a></li>
+        </ul>
+    </nav>
+    <section id="bolo-secao">
+        <div class="bolo">
+            <img src="bolo_chocolate.jpg" alt="Bolo de Chocolate">
+            <h2>Bolo de Chocolate</h2>
+            <p>Um bolo de chocolate delicioso coberto com ganache.</p>
+            <button onclick="mostrarDetalhes('chocolate')">Ver Detalhes</button>
+        </div>
+        <div class="bolo">
+            <img src="bolo_morango.jpg" alt="Bolo de Morango">
+            <h2>Bolo de Morango</h2>
+            <p>Um bolo de morango fresco com creme de morango.</p>
+            <button onclick="mostrarDetalhes('morango')">Ver Detalhes</button>
+        </div>
+    </section>
+    <section id="detalhes-bolo">
+        <h2>Detalhes do Bolo</h2>
+        <div id="detalhes-chocolate">
+            <img src="bolo_chocolate.jpg" alt="Bolo de Chocolate">
+            <p>Este bolo de chocolate é incrivelmente rico e saboroso.</p>
+        </div>
+        <div id="detalhes-morango">
+            <img src="bolo_morango.jpg" alt="Bolo de Morango">
+            <p>Experimente o sabor fresco dos morangos neste bolo.</p>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
